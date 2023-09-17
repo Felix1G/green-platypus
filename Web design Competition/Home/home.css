@@ -29,14 +29,14 @@ a {
 .header .left-link {
     display: flex;
     align-items: center;
-    font-size: 40px;
+    font-size: 2em;
     gap: 12px;
 }
 
     /* Right Link */
 .header .right-link {
     display: flex;
-    font-size: 22px;
+    font-size: 1.1em;
     gap: 32px;
 }
 
@@ -74,7 +74,7 @@ div.section-1 {
 
 .main-text,
 .main-text-bold {
-    font-size: 58px;
+    font-size: 4em;
     color: #c5c5c5;
 }
 
@@ -111,7 +111,7 @@ label.main-text-bold {
 .body-container{
     color: #0D0D0D;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 1.5em;
 }
 
 .newest-watch {
@@ -126,7 +126,7 @@ label.main-text-bold {
 }
 
 .bold-text {
-    font-size: 56px;
+    font-size: 2em;
     color: #3b3b3b;
 }
 
@@ -140,7 +140,7 @@ label.main-text-bold {
 
 .info-text {
     color: #595959;
-    font-size: 18px;
+    font-size: 0.5em;
 }
 
 .button-section button {
@@ -179,13 +179,13 @@ label.main-text-bold {
 .Featured-title {
     text-align: center;
     width: 600px;
-    font-size: 48px;
+    font-size: 2.5em;
     font-weight: 500;
     margin: 0 auto 82px auto;
 }
 
 .Featured-title .p2 {
-    font-size: 20px;
+    font-size: 0.5em;
     font-weight: 100;
     color: #595959;
 }
@@ -194,20 +194,21 @@ label.main-text-bold {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 26px 0 26px;
+    margin: 0;
 }
 
     /* Product */
 .product{
+	float: center;
     display: flex;
-    margin-right: 300px;
+    margin-right: 30px;
     margin-top: 20px;
     gap: 60px;
 }
 
 .product-info{
-    min-width: 500px;
-    max-width: 700px;
+    min-width: auto;
+    max-width: 400px;
 }
 
 .product img{
@@ -218,7 +219,7 @@ label.main-text-bold {
 }
 
 .product-name{
-    font-size: 48px;
+    font-size: 2.2em;
     color: #767676;
     font-weight: 600;
 }
@@ -247,7 +248,7 @@ label.main-text-bold {
     text-align: center;
     color: #D0D0D0;
     padding-bottom: 34px;
-    font-size: 42px;
+    font-size: 2em;
     font-weight: 300;
 }
 
@@ -287,13 +288,19 @@ label.main-text-bold {
 }
 
 .quote div {
-    font-size: 64px;
+	-webkit-text-stroke: 1px black;
+	text-shadow: 2px 2px 6px black;
+    font-size: 3.5em;
     margin-top: 160px;
     margin-right: 80px;
 }
 
 .quote i {
-    color: #343434;
+    color: white;
+}
+
+.quote i b {
+    color: yellow;
 }
 
 .quote i span {
@@ -364,7 +371,7 @@ label.main-text-bold {
 
 
 .footer div{
-    width: 300px;
+    width: auto;
     margin-right: 20px;
 }
 
@@ -449,6 +456,8 @@ label.main-text-bold {
     display:block;
     min-height: 70px;
     min-width: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 50%;
     border: none;
     background-color: #D9D9D9;
