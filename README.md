@@ -2,9 +2,21 @@
 
 > *"Write then clean.*
 
-**Current Progress:**
+WEDNESDAY DEADLINE
 
-1. Proposal X
-2. Idea X
-3. Design X
-4. Execution Z
+
+# Code to change pages:
+
+In this part:
+> $(document).ready(function() {
+> 
+> ...
+> 
+> }
+
+Add this code to change screen (inside the ... above):
+> $('[css button selection, for example #btn').on("click", function() {
+>
+> window.location.href = "[link to the page, for example buy.html]";
+>
+> });
