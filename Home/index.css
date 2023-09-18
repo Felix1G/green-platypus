@@ -249,6 +249,11 @@ label.main-text-bold {
     transform: scale(1.05);
 }
 
+#product1, #product2, #product3 {
+    display: none;
+    opacity: 0;
+}
+
 /*----------------------------------------------------------------------------------------*/
 
 /* Specialitas*/
@@ -352,7 +357,7 @@ label.main-text-bold {
 /*----------------------------------------------------------------------------------------*/
 /* footer */
 
-.footer{
+.footer {
     text-align: left;
     padding: 30px 70px 0px 70px;
     color: #000000;
@@ -371,6 +376,7 @@ label.main-text-bold {
     background-size: 200% 2px;
     background-repeat: no-repeat;
     cursor: pointer;
+    font-size: 2em;
   }
 
 .un:hover {
@@ -413,7 +419,8 @@ label.main-text-bold {
 
 .footer div{
     width: auto;
-    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .footer div div{
