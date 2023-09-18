@@ -251,11 +251,11 @@ label.main-text-bold {
 
 /*----------------------------------------------------------------------------------------*/
 
-/* Specialty*/
+/* Specialitas*/
 
 .specialty{
     color: #000000;
-    background-color: #1F1F1F;
+    background-color: #0b0b0b;
     padding: 34px 0 70px 0;
 }
 
@@ -274,12 +274,8 @@ label.main-text-bold {
     justify-content: center;
 }
 
-/*.fa-regular {
-    width: 10em;
-}*/
-
 .specialty-box div {
-    background-color: #404040;
+    background-color: #343434;
     border-radius: 15px;
     width: 280px;
     height: 300px;
@@ -290,6 +286,31 @@ label.main-text-bold {
 
 .specialty-box div:hover{
     transform: scale(1.05);
+}
+
+.specialty-div img {
+    width: 7.5vw;
+}
+
+.specialty-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7vw;
+    padding: 0.5vw;
+}
+
+.specialty-div > p:nth-child(2) {
+    color: #f1f1f1;
+    font-weight: 800;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.specialty-div > p:nth-child(3) {
+    color: #d6d6d6;
+    font-size: 1em;
 }
 
 /*----------------------------------------------------------------------------------------*/
