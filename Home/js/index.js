@@ -134,6 +134,11 @@ $(document).ready(function() {
 			$('.right-button').css('opacity', 1);
 	});
 
+	//change screens
+	$('.s1-btn1').on("click", function() {
+		window.location.href = "../Pelajari/pelajari.html";
+	});
+
 	$('#lrc-sr-series-buy').on("click", function() {
 		changeToBuyHTML('lrc-sr-series.png', -1);
 	});
