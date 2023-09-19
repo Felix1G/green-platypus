@@ -15,6 +15,11 @@ function productUI(ui) {
 	}
 }
 
+function changeToBuyHTML(instruction, index) {
+	window.location.href = "buy.html?img=Images/Product/" +
+		instruction + "&index=" + index;
+}
+
 var isTransitioning = false;
 function transitionProduct(from, to, elemHeight) {
 	isTransitioning = true;
@@ -66,6 +71,8 @@ $(document).ready(function() {
 			$("#kontak-btn").addClass("location");
 		}
 	});
+	//call the function above
+	$(window).scrollTop($(window).scrollTop() + 1);
 
 	$("#home-btn").on("click", function() {
 		$("html, body").animate({ scrollTop: 0 });
@@ -84,9 +91,10 @@ $(document).ready(function() {
 	});
 
 	//UI produk pilihan
-	var uiIndex = 0;
 	$('.left-button').css('opacity', 0);
 	const elemHeight = $('#product0').height();
+
+	var uiIndex = 0;
 
 	$('.left-button').on("click", function() {
 		if (isTransitioning)
@@ -124,5 +132,29 @@ $(document).ready(function() {
 			$('.right-button').css('opacity', 0);
 		else
 			$('.right-button').css('opacity', 1);
+	});
+
+	$('#lrc-sr-series-buy').on("click", function() {
+		changeToBuyHTML('lrc-sr-series.png', -1);
+	});
+
+	$('#lrc-sr-series-buy-a').on("click", function() {
+		changeToBuyHTML('lrc-sr-series.png', -1);
+	});
+
+	$('#lrc-x-series-buy').on("click", function() {
+		changeToBuyHTML('lrc-x-series.jpg', 0);
+	});
+
+	$('#lrc-dominion-buy').on("click", function() {
+		changeToBuyHTML('lrc-dominion.png', 1);
+	});
+
+	$('#lrc-undertaker-buy').on("click", function() {
+		changeToBuyHTML('lrc-undertaker.jpg', 2);
+	});
+
+	$('#lrc-undertaker-pro-buy').on("click", function() {
+		changeToBuyHTML('lrc-undertaker-pro.jpg', 3);
 	});
 });
