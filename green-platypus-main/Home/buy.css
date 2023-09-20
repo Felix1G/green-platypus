@@ -1,0 +1,93 @@
+.top{
+    margin-bottom: 8vh;
+}
+
+.produk-div {
+	display: flex;
+    margin: 0;
+}
+
+.right-side {
+    width: 30vw;
+	margin: auto;
+}
+
+#description{
+    color: #86868b;
+}
+
+#img-produk {
+	object-fit: cover;
+    margin: 10px;
+	width: 50%;
+    border-radius: 12px;
+}
+
+#title-produk {
+	overflow-wrap: none;
+	color: black;
+	font-size: 3em;
+}
+
+#price {
+	overflow-wrap: none;
+	color: black;
+	font-size: 2em;
+}
+
+.lower-btn {
+  border: none;
+  appearance: none;
+  outline: none;
+  text-decoration: none;
+
+  box-sizing: border-box;
+  
+  cursor: pointer;
+
+  border-radius: 15px;
+  font-size: 1em;
+  font-weight: 800;
+  line-height: normal;
+  padding: 12px 36px;
+  width: 80%;
+  text-align: center;
+
+  transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.lower-btn{
+    background-color: #0D0D0D;
+    color: #E1E1E1;
+}
+
+.lower-btn:disabled {
+  pointer-events: none;
+}
+
+
+#back-btn:hover{
+    color: #86868b;
+    background-color: lightgrey;
+}
+#buy-btn:hover{
+    color: black;
+    background-color: lightgrey;
+}
+
+.lower-btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+#back-btn {
+	color: white;
+	background-color: #86868b;
+}
+
+#buy-btn {
+	color: white;
+}
