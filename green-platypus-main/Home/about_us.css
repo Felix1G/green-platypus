@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    list-style: none;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all ease-out 0.45s;
+    text-underline-offset: 10px;    
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: 0.011em;
+}
+
+h2 {
+    color: #00a3fc;
+    padding-bottom:2px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#111 0 0);
+    background-position: right -100% bottom 0;
+    background-size: 200% 2px;
+    background-repeat: no-repeat;
+    font-size: 2em;
+}
+
+h2:hover {
+    background-position: left -100% bottom 0;
+    transition: background-position 1s;
+}
+
+img {
+    max-width: 100%;
+}
+/*----------------------------------------------------------------------------------------*/
+
+/* Body Part */
+body, head {
+    margin: 0;
+}
+
+/* Header Part */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #1d1d1d;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 28px;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    gap: 12px;
+}
+
+/* intro -------------------------------------------------- */
+
+div.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12vw;
+    margin-bottom: 12vw;
+    gap: 2vw;
+}
+
+.intro h2, .intro p {
+    color: #141414;
+}
+
+.intro h2 {
+    font-size: 4em;
+}
+
+.intro p {
+    width: 50vw;
+    text-align: center;
+}
+
+/* section-1 -------------------------------------- */
+.section-1 {
+    background: url(about_us_image/Section-1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 50vw;
+    padding: 6vw;
+    cursor: default;
+}
+
+.section-1 div {
+    width: 32vw;
+}
+
+#section-1-p {
+    transition: all ease-out 0.45s;
+    padding: 1vw;
+    color: #000;
+}
+
+#section-1-p:hover {
+    background: rgba(125, 125, 125, 0.3);
+    border-radius: 8px;
+    color: #000;
+}
+
+/* section 2 --------------------------------- */
+
+.section-2 {
+    background: #fcfcfc;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    padding: 8vw 4vw 8vw 4vw;
+}
+
+.section-2 h2 {
+    font-size: 4em;
+}
+
+.section-2 p {
+    width: 50vw;
+}
+
+#box{
+    text-align: left;
+}
+
+.section-2 img{
+    border-radius: 20px;
+    width: 30vw;
+    float: right;
+}
+
+/* Section 3-------------------------------------------- */
+
+.section-3{
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6vw 4vw 6vw 4vw;
+    gap: 18px;
+}
+
+.section-3 p,
+.section-3 h2 {
+      text-align: right;
+}
+
+.section-3 h2 {
+    font-size: 4em;
+    padding-bottom: 2vw;
+}
+
+.section-3 img {
+    width: 30vw;
+    border-radius: 20px;
+}
+
+/* SECTION 4---------------------------------- */
+
+.closing {
+    padding: 3vw 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.closing-container h2 {
+    text-align: center;
+    color: #18253b;
+    padding-bottom: 3vw;
+    font-size: 5.2em;
+}
+
+.closing-container p {
+    text-align: center;
+    color: #828282;
+    padding: 0 8vw;
+}
