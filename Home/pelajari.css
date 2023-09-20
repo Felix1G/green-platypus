@@ -5,11 +5,10 @@
     font-family: Poppins;
     margin: 0;
     padding: 0;
-    color: #fff;
 }
 
 body {
-    background-color: #000;
+    background-color: #f7f7f7;
 }
 
 p{
@@ -28,12 +27,8 @@ a {
     text-underline-offset: 10px;
 }
 
-img {
+img{
     max-width: 100%;
-    max-height: 90vh;
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
 }
 
 section{
@@ -43,10 +38,6 @@ section{
 }
 
 /*----------------------------------------------------------------------------------------*/
-
-.image {
-    width: 100vw;
-}
 
 /* Header Part */
 
@@ -77,12 +68,16 @@ section.main-section{
 
 .main-text{
     font-size: 4em;
-    color: #00a3fc;
+    color: #002756;
     font-weight: 700;
     padding-bottom: 25px;
 }
 
 /*----------------------------------------------------------------------------------------*/
+
+.image{
+    width: 100vw;
+}
 
 /*----------------------------------------------------------------------------------------*/
 .design-section{
@@ -133,15 +128,15 @@ section.main-section{
 /*----------------------------------------------------------------------------------------*/
 
 #feature-logo{
-    color:#00a3fc; 
+    color:#002756; 
     padding: 10px;
 }
 
 .feature-section{
     padding-top: 100px;
-    background-color: #343434;
+    background-color: #c7c7c7;
     padding-bottom: 50px;
-    margin: 0;
+    margin-bottom: 0;
 }
 .feature-section h2{
     font-size: 64px;
@@ -162,7 +157,7 @@ section.main-section{
     margin-bottom: 156px;
 }
 .health-grid p, .safety-grid p, .additional-feature-grid p{
-    color: #c2c2c2;
+    color: #86868b;
     font-size: 19px;
     line-height: 1.2105263158;
     letter-spacing: .012em;
