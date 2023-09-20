@@ -136,7 +136,11 @@ $(document).ready(function() {
 
 	//change screens
 	$('.s1-btn1').on("click", function() {
-		window.location.href = "../Pelajari/pelajari.html";
+		window.location.href = "pelajari.html";
+	});
+
+	$('.footer-LRC').on("click", function() {
+		window.location.href = "about_us.html";
 	});
 
 	$('#lrc-sr-series-buy').on("click", function() {
