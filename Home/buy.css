@@ -1,31 +1,38 @@
-body, html {
-	overflow: hidden;
+.top{
+    margin-bottom: 8vh;
 }
 
 .produk-div {
-	display: flex;
+    display: flex;
     margin: 0;
 }
 
 .right-side {
-	margin: auto;
+    width: 30vw;
+    margin: auto;
+}
+
+#description{
+    color: #86868b;
 }
 
 #img-produk {
-	object-fit: cover;
-	width: 60%;
+    object-fit: cover;
+    margin: 10px;
+    width: 50%;
+    border-radius: 12px;
 }
 
 #title-produk {
-	overflow-wrap: none;
-	color: black;
-	font-size: 3em;
+    overflow-wrap: none;
+    color: black;
+    font-size: 3em;
 }
 
-#desc-produk {
-	overflow-wrap: none;
-	color: black;
-	font-size: 1em;
+#price {
+    overflow-wrap: none;
+    color: black;
+    font-size: 2em;
 }
 
 .lower-btn {
@@ -46,7 +53,7 @@ body, html {
   width: 80%;
   text-align: center;
 
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 500ms cubic-bezier(.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -61,8 +68,14 @@ body, html {
   pointer-events: none;
 }
 
-.lower-btn:hover {
-    transform: translateY(-10px);
+
+#back-btn:hover{
+    color: #86868b;
+    background-color: lightgrey;
+}
+#buy-btn:hover{
+    color: black;
+    background-color: lightgrey;
 }
 
 .lower-btn:active {
@@ -71,10 +84,10 @@ body, html {
 }
 
 #back-btn {
-	color: white;
-	background-color: red;
+    color: white;
+    background-color: #86868b;
 }
 
 #buy-btn {
-	color: white;
+    color: white;
 }
