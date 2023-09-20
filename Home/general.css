@@ -114,6 +114,7 @@ body, head, div {
     padding-right: 50px;
     align-items: center;
     color: #fff;
+    margin: 0;
 }
 
 .footer-sosmed-btn{
@@ -132,6 +133,7 @@ body, head, div {
 
 .footer-sosmed-btn i{
     object-fit: contain;
+    cursor: pointer;
 }
 
 .footer-sosmed-btn a:hover{

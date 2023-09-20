@@ -139,10 +139,6 @@ $(document).ready(function() {
 		window.location.href = "pelajari.html";
 	});
 
-	$('.footer-LRC').on("click", function() {
-		window.location.href = "about_us.html";
-	});
-
 	$('#lrc-sr-series-buy').on("click", function() {
 		changeToBuyHTML('lrc-sr-series.png', -1);
 	});
