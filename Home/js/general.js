@@ -20,7 +20,7 @@ $(document).ready(function() {
 	});
 
 	$('.footer-service').on("click", function() {
-		window.location.href = "jasa.html";
+		window.location.href = "syarat.html";
 	});
 
 	$('.footer-links').on("click", function() {
