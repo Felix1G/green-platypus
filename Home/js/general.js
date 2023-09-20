@@ -26,4 +26,8 @@ $(document).ready(function() {
 	$('.footer-links').on("click", function() {
 		window.location.href = "lokasi_pembelian.html";
 	});
+
+	$('.back-btn').on('click', function() {
+		window.location.href = "index.html";
+	});
 });

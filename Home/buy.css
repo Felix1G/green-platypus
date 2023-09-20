@@ -1,4 +1,4 @@
-.top{
+.top {
     margin-bottom: 8vh;
 }
 
@@ -8,19 +8,17 @@
 }
 
 .right-side {
-    width: 30vw;
+    width: 40%;
     margin: auto;
 }
 
-#description{
+#description {
     color: #86868b;
 }
 
 #img-produk {
     object-fit: cover;
-    margin: 10px;
-    width: 50%;
-    border-radius: 12px;
+    width: 55%;
 }
 
 #title-produk {

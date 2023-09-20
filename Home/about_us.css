@@ -26,7 +26,7 @@ h2 {
     color: #00a3fc;
     padding-bottom:2px;
     margin-bottom: 20px;
-    background-image: linear-gradient(#111 0 0);
+    background-image: linear-gradient(#00a3f9 0 0);
     background-position: right -100% bottom 0;
     background-size: 200% 2px;
     background-repeat: no-repeat;
@@ -46,6 +46,7 @@ img {
 /* Body Part */
 body, head {
     margin: 0;
+    background-color: #404040;
 }
 
 /* Header Part */
@@ -77,17 +78,15 @@ div.intro {
     gap: 2vw;
 }
 
-.intro h2, .intro p {
-    color: #141414;
-}
-
 .intro h2 {
     font-size: 4em;
+    color: #00a3f9;
 }
 
 .intro p {
     width: 50vw;
     text-align: center;
+    color: white;
 }
 
 /* section-1 -------------------------------------- */
@@ -113,13 +112,12 @@ div.intro {
 #section-1-p:hover {
     background: rgba(125, 125, 125, 0.3);
     border-radius: 8px;
-    color: #000;
 }
 
 /* section 2 --------------------------------- */
 
 .section-2 {
-    background: #fcfcfc;
+    background-color: #404040;
     display: flex;
     align-items: center;
     text-align: center;
@@ -133,6 +131,7 @@ div.intro {
 
 .section-2 p {
     width: 50vw;
+    color: white;
 }
 
 #box{
@@ -148,7 +147,7 @@ div.intro {
 /* Section 3-------------------------------------------- */
 
 .section-3{
-    background-color: #f7f7f7;
+    background-color: #404040;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,12 +155,13 @@ div.intro {
     gap: 18px;
 }
 
-.section-3 p,
-.section-3 h2 {
-      text-align: right;
+.section-3 p {
+    text-align: right;
+    color: white;
 }
 
 .section-3 h2 {
+    text-align: right;
     font-size: 4em;
     padding-bottom: 2vw;
 }
@@ -178,18 +178,37 @@ div.intro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
 }
 
 .closing-container h2 {
     text-align: center;
-    color: #18253b;
+    color: #00acf9;
     padding-bottom: 3vw;
     font-size: 5.2em;
 }
 
 .closing-container p {
     text-align: center;
-    color: #828282;
+    color: lightgray;
     padding: 0 8vw;
+}
+
+.back-btn {
+    background-color: #00a3fc;
+    color: white;
+}
+
+.back-btn:hover {
+    background-color: #0083ec;
+    color: white;
+}
+
+/***** animation *****/
+.section-2 img, .section-3 img {
+    transition: all .2s ease-in-out;
+}
+
+.section-2 img:hover, .section-3 img:hover {
+    transform: scale(1.05);
 }

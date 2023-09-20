@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	background-color: #383838;
+}
+
+p, h {
+	color: white;
+}
+
+.content {
+	width: 100%;
+}
+
+.content-title {
+	font-size: 5em;
+}
+
+.map-content {
+	width: 40%;
+	margin: 0 10vw;
+}
+
+.map-content img {
+	object-fit: cover;
+	width: 90%;
+	height: 50vh;
+    transition: all .2s ease-in-out;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+}
+
+.map-content img:hover {
+    transform: scale(1.05);
+}
+
+.lower-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 10vh;
+}
+
+.back-btn {
+	background-color: white;
+	color: black;
+}
+
+.back-btn:hover {
+	background-color: lightgrey;
+}

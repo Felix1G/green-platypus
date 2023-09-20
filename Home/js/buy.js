@@ -22,11 +22,11 @@ function description(index) {
 
 function price(index) {
 	switch (index) {
-		case -1:return "Rp 4.999.999";
-		case 0: return "Rp 5.999.999";
-		case 1: return "Rp 6.999.999";
-		case 2: return "Rp 7.999.999";
-		case 3: return "Rp 8.999.999";
+		case -1:return "Rp 1.499.999";
+		case 0: return "Rp 1.599.999";
+		case 1: return "Rp 1.799.999";
+		case 2: return "Rp 3.599.999";
+		case 3: return "Rp 3.999.999";
 	}
 }
 
